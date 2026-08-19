@@ -20,10 +20,10 @@ cask "ollama-usage-widget" do
   uninstall quit: "com.asharfatmi.ollama-usage-widget"
 
   zap trash: [
+    "~/.ollama-usage-widget",
+    "~/.ollama-usage-widget.env",
     "~/Library/LaunchAgents/com.asharfatmi.ollama-usage-widget.plist",
     "~/Library/Preferences/com.asharfatmi.ollama-usage-widget.plist",
     "~/Library/Preferences/OllamaUsageWidget.plist",
-    "~/.ollama-usage-widget",
-    "~/.ollama-usage-widget.env",
   ]
 end
